@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav {
+    text-align: center;
+    margin: 10px;
+}
+nav a {
+    color: white;
+    background: #555;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
